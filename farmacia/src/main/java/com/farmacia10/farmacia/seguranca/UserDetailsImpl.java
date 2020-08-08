@@ -7,7 +7,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 
 import com.farmacia10.farmacia.model.Usuario;
 
-//Comparação dos dados do usuário
+//Comparação dados do usuário com login
 public class UserDetailsImpl implements UserDetails{
 	
 	//Controle interno
