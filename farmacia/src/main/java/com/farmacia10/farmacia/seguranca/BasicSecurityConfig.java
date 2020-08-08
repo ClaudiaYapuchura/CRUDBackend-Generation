@@ -11,7 +11,7 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
-//
+//Configura todos os acessos e verifica se é seguro ou não
 @EnableWebSecurity
 public class BasicSecurityConfig extends WebSecurityConfigurerAdapter{
 	
